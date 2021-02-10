@@ -1,5 +1,13 @@
+
+@font-face {
+    font-family: 'pt_serif';
+    src: url('./fonts/ptserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .title {
-    Font-family: Roboto;
+    font-family: Roboto
 }
 
 body {
@@ -13,31 +21,30 @@ body {
 
 .logo, .menu {
 	display: inline-block;
+	
 }
-
-.logo {
-	margin-right: 63%
-}
-
 .header {
 	display: flex;
 	justify-content: space-between;
 }
-
 .logo {
 	padding: 40px 0;
-	align-items: center;	
+	font-family: pt_serif, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
 }
-
+	
+}
 .menu {
 	display: flex;
 	align-items: center;
 }
-
 .menu__item {
 	padding: 0 13px;
 }
-
-.menu__item:last-child {
+.menu__item: last-child {
 	padding-right: 0;
-}
+
+
+
