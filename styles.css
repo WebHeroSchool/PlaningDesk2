@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PT+Serif';
-    src: url('./fonts/pt_serif-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    src: url('./Fonts/ptserif-bold-webfont.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -28,7 +28,7 @@ body {
 }
 .logo {
 	padding: 40px 0;
-	font-family: 'pt_serif', arial, helvetica, sans-serif;
+	font-family: ptserif, arial, helvetica, sans-serif;
 }
 
 .menu {
