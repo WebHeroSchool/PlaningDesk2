@@ -1,0 +1,64 @@
+
+.title {
+    font-family: Roboto;
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: auto;
+	width: 80%;
+}
+
+.logo, .menu {
+	display: inline-block;
+	
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	position: relative;
+	padding: 40px 0;
+	padding-left: 44px;
+	font: bold 24px/31 ptserif, arial, helvetica, sans-serif;
+
+}
+.logo__circle {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+.logo__circle_color_dark-blue {
+	border-radius: 50%;
+	background: #0056EC;
+	opacity: .7;
+}
+.logo__circle_color_blue {
+	left: 8px;
+	top: 51%;
+	background: #C8DBFB;
+	border-radius: 50%;
+	opacity: .7;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+.menu__item {
+	padding: 0 13px;
+}
+.menu__item: last-child {
+	padding-right: 0;
+}
+
+
+
